@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/legacy/image'
-import devZ from '../public/zavator.jpg'
+// import devZ from '../public/zavator.jpg'
 const About = () => {
   return (
     
@@ -8,7 +8,7 @@ const About = () => {
           <div className='flex flex-col items-center md:flex-row md:items-center md:justify-center'>
               <div className='basis-1/4'>
                     <div className="relative rounded-full w-80 h-80 mt-20 overflow-hidden md:h-65 md:w-65 md:shrink-0" >
-                    <Image src={devZ} layout='fill' objectFit='cover' className=' ml-40 mr-40' />
+                    {/* <Image src={devZ} layout='fill' objectFit='cover' className=' ml-40 mr-40' alt='' /> */}
                     </div>
                </div>
                <div className='text-left ml-20 basis-1/2'>
