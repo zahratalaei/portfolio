@@ -1,7 +1,5 @@
 import React from 'react'
 import Image from 'next/legacy/image'
-import {BsFillMoonStarsFill} from 'react-icons/bs'
-import { AiFillLinkedin} from 'react-icons/ai'
 import devZ from '../public/zavator.jpg'
 const About = () => {
   return (
