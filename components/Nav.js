@@ -9,7 +9,7 @@ const Nav = ({setDarkMode,darkMode}) => {
         <h1 className='text-2xl font-burtons'>Zahra Talaei</h1>
         <ul className='flex items-center'>
           <li><BsFillMoonStarsFill onClick={()=>setDarkMode(!darkMode)} className='cursor-pointer text-2xl'/></li>
-          <li><a href="https://drive.google.com/file/d/1Z09h8cmkvRHEoeCIr2nPBmnZb9Oz_06S/view?usp=sharing" target="_blank" className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8'>Resume</a></li>
+          <li><a href="https://drive.google.com/file/d/1ehbxrfU1B-BBgsaTQdvi6VepMoV6KE81/view?usp=sharing" target="_blank" className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8'>Resume</a></li>
           
           <li className='text-5xl flex justify-center gap-16 py-3 text-teal-600 '>
             <a href="https://www.linkedin.com/feed/"><AiFillLinkedin/></a>
