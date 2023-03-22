@@ -4,7 +4,7 @@ import lfl from '../public/lfl.png'
 import jumbo from '../public/Jumbo.png'
 import Rtmdb from '../public/ReactTMDB.png'
 import FS from '../public/FullStack.png'
-import Shopping from '../public/Shopping.png'
+import Shopping from '../public/shopping.png'
 import Image from 'next/legacy/image'
 
 const Projects = () => {
