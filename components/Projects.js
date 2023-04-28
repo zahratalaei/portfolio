@@ -3,7 +3,7 @@ import yhl from '../public/yhl.png'
 import lfl from '../public/lfl.png'
 import jumbo from '../public/Jumbo.png'
 import Rtmdb from '../public/ReactTMDB.png'
-import FS from '../public/FullStack.png'
+import FS from '../public/CircleUp.png'
 import Shopping from '../public/shopping.png'
 import Image from 'next/legacy/image'
 
@@ -38,7 +38,7 @@ const Projects = () => {
       <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
         <a href='https://github.com/zahratalaei/FullStackReactExpress' target="_blank">
         <Image src={FS} alt=''/>
-        <h3 className='text-2xl font-semibold pt-8 pb-2'>Codes Up!</h3>
+        <h3 className='text-2xl font-semibold pt-8 pb-2'>CircleUp!</h3>
         </a>
         <p className='py-2'>It is a Full Stack Blog App. Being able to see, add comments and likes the posts you need to have an account and sing in to the app. Only author of the post can edit/delete it. This app is in progressing to add more functionalities such as search bar, filters and also improve the UI  </p>
         <p className='text-gray-800 py-1 mt-4'><span className='text-teal-600 py-4 font-bold'>Used Technologies: </span>React, JavaScript, React router dom, react-bootstrap, yup, bootstrap, axios, Mui, ExpressJs, bcrypt, JWT, mysql, sequelize, ... </p>
