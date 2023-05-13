@@ -4,31 +4,36 @@
      "id":0,
      "title": "Jumbo Interactive",
      "description": "Maintaining and adding new components to the old version of Jumbo corporate website. Current website is the new version.",
-     "technology": "Reactjs, Javascript, Styled Components, React router dom, Node API, Wordpress Rest Api, ..."
+     "technology": "Reactjs, Javascript, Styled Components, React router dom, Node API, Wordpress Rest Api, ...",
+     "url":""
      },
      {
      "id":1,
      "title": "Search Movies App",
      "description": "Through this application you can find the latest popular movies in home page and search the movie by its name among all the movies in TMDB API. By click on each movie you have access to the details of it. You also be able to paginate through the different pages. All the data comes from TMDB API.",
-     "technology": "React, JavaScript, React router dom,Rest API, react-paginate, Styled components"
+     "technology": "React, JavaScript, React router dom,Rest API, react-paginate, Styled components",
+     "url":"https://tmdbmovieapplication.netlify.app/"
      },
      {
      "id":2,
      "title": "Your Hospice Lottery Blog",
      "description": "This the blog of Your Hospice Lottery website. It is a Wordpress custom theme created from the scratch.",
-     "technology": "Wordpress, PHP, bootstrap"
+     "technology": "Wordpress, PHP, bootstrap",
+     "url":"https://www.yourhospicelottery.org.uk/blog/"
      },
      {
      "id":3,
      "title": "CircleUp!",
      "description": "It is a Full Stack Blog App. Being able to see, add comments and likes the posts you need to have an account and sing in to the app. Only author of the post can edit/delete it. This app is in progressing to add more functionalities such as search bar, filters and also improve the UI ",
-     "technology": "React, JavaScript, React router dom, react-bootstrap, yup, bootstrap, axios, Mui, ExpressJs, bcrypt, JWT, mysql, sequelize, ..."
+     "technology": "React, JavaScript, React router dom, react-bootstrap, yup, bootstrap, axios, Mui, ExpressJs, bcrypt, JWT, mysql, sequelize, ...",
+     "url":"https://github.com/zahratalaei/FullStackReactExpress"
      },
      {
      "id":4,
      "title": "Shopping cart app!",
      "description": "It is a shopping cart App which is created by react-typescript. Home page displays different categories. Each category is linked to its products page. This app includes a cart displaying all the selected products with the single price, total price of each item and the total price of cart. This app is in progressing to add more functionalities such as search bar, filters and also improve the UI ",
-     "technology": "React, typescript, React router dom, react-bootstrap, bootstrap5, axios "
+     "technology": "React, typescript, React router dom, react-bootstrap, bootstrap5, axios ",
+     "url":"https://main--shappingcart-ts-app.netlify.app/"
      }
      ],
      "images": [

@@ -35,6 +35,7 @@ const images = [jumbo,Rtmdb,yhl,FS,Shopping]
         >
           <div className="md:w-3/5">
             <h2 className='text-5xl text-gray-800 py-1 dark:text-white font-bold'>Sample Projects</h2> 
+            <p className="py-5">Take a look at some of my recent projects! Scroll left to view the full list.</p>
           </div> 
         </motion.div>
         <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
@@ -45,6 +46,8 @@ const images = [jumbo,Rtmdb,yhl,FS,Shopping]
                   <h3 className="text-2xl font-semibold">{project.title}</h3>
                   <p className="mt-5">{project.description}</p>
                   <p><span className='text-teal-600 py-4 font-bold'>Used Technologies: </span>{project.technology}</p>
+                  {project.url && <a href={project.url} target="_blank" className='bg-teal-400 text-white mt-[10px] p-1 rounded-md'>website
+                  </a>}
                 </div>
                 <Image src={`${images[project.id].src}`} layout="fill" alt={images[project.id].alt}/>
               </li>
