@@ -13,8 +13,8 @@ import { PageContext } from '@/hooks/PageContext'
 
 const Projects = () => {
 const {setSelectedPage} = useContext(PageContext)
-
-  const{projects,images} = data
+const images = [jumbo,Rtmdb,yhl,FS,Shopping]
+  const{projects} = data
   const overlayStyles = `p-5 absolute z-20 flex
   h-[380px] w-[450px] flex-col items-center justify-center
   whitespace-normal bg-yellow-200 text-center text-black
