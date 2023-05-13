@@ -12,6 +12,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors:{
+        "secondary-500":"FFDB58"
+      },
       fontFamily:{
         burtons:"burtons"
       }

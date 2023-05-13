@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useContext} from 'react'
 import yhl from '../public/yhl.png'
 import lfl from '../public/lfl.png'
 import jumbo from '../public/Jumbo.png'
@@ -6,12 +6,59 @@ import Rtmdb from '../public/ReactTMDB.png'
 import FS from '../public/CircleUp.png'
 import Shopping from '../public/shopping.png'
 import Image from 'next/legacy/image'
+import {motion} from 'framer-motion'
+import data from '../projects.json'
+import { PageContext } from '@/hooks/PageContext'
+
 
 const Projects = () => {
+const {setSelectedPage} = useContext(PageContext)
+
+  const{projects,images} = data
+  const overlayStyles = `p-5 absolute z-20 flex
+  h-[380px] w-[450px] flex-col items-center justify-center
+  whitespace-normal bg-yellow-200 text-center text-black
+  opacity-0 transition duration-500 hover:opacity-90`;
   return (
-    <section>
-      <h2 className='text-5xl text-gray-800 py-1 dark:text-white font-bold'>Sample Projects</h2>  
-        <div className='md:grid md:grid-cols-2 gap-10'>
+    <section id='projects' className="w-full py-40">
+      <motion.div onViewportEnter={() => setSelectedPage("projects")}>
+        <motion.div 
+          className="mx-auto w-5/6"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.5 }}
+          variants={{
+            hidden: { opacity: 0, x: -50 },
+            visible: { opacity: 1, x: 0 },
+          }}
+        >
+          <div className="md:w-3/5">
+            <h2 className='text-5xl text-gray-800 py-1 dark:text-white font-bold'>Sample Projects</h2> 
+          </div> 
+        </motion.div>
+        <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
+          <ul className="w-[2800px] whitespace-nowrap">
+            {projects.map((project)=>(
+              <li className="relative mx-5 inline-block h-[380px] w-[450px]">
+                <div className={overlayStyles}>
+                  <h3 className="text-2xl font-semibold">{project.title}</h3>
+                  <p className="mt-5">{project.description}</p>
+                  <p><span className='text-teal-600 py-4 font-bold'>Used Technologies: </span>{project.technology}</p>
+                </div>
+                <Image src={`${images[project.id].src}`} layout="fill" alt={images[project.id].alt}/>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </motion.div>
+        
+ </section>
+  )
+}
+
+export default Projects
+{/* <div className='md:grid md:grid-cols-2 gap-10'>
           <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
             <Image src={jumbo} alt=''/>
             <h3 className='text-2xl font-semibold pt-8 pb-2'>Jumbo Interactive</h3>
@@ -52,9 +99,4 @@ const Projects = () => {
         <p className='py-2'>It is a shopping cart App which is created by react-typescript. Home page displays different categories. Each category is linked to its products page. This app includes a cart displaying all the selected products with the single price, total price of each item and the total price of cart. This app is in progressing to add more functionalities such as search bar, filters and also improve the UI </p>
         <p className='text-gray-800 py-1 mt-4'><span className='text-teal-600 py-4 font-bold'>Used Technologies: </span>React, typescript, React router dom, react-bootstrap, bootstrap5, axios </p>
       </div>
-    </div>
- </section>
-  )
-}
-
-export default Projects
+    </div> */}
