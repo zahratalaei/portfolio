@@ -20,7 +20,7 @@ const images = [jumbo,Rtmdb,yhl,FS,Shopping]
   whitespace-normal bg-yellow-200 text-center text-black
   opacity-0 transition duration-500 hover:opacity-90`;
   return (
-    <section id='projects' className="w-full py-40">
+    <section id='projects' className="w-full pt-40">
       <motion.div onViewportEnter={() => setSelectedPage("projects")}>
         <motion.div 
           className="mx-auto w-5/6"

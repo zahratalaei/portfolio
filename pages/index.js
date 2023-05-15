@@ -20,7 +20,7 @@ export default function Home() {
     const handleScroll = () => {
       if(window.scrollY === 0) {
         setIsTopOfPage(true)
-        setSelectedPage('home')
+        setSelectedPage('aboutme')
       }
       if(window.scrollY !== 0) setIsTopOfPage(false)
     }

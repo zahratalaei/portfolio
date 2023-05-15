@@ -14,7 +14,7 @@ const Skills = () => {
     visible:{opacity:1, scale:1}
   }
   return (
-    <section id='skills' className="mx-auto min-h-full w-5/6 py-20">
+    <section id='skills' className="mx-auto min-h-full w-5/6 pt-40">
       <motion.div onViewportEnter={()=>setSelectedPage("skills")}>
         <motion.div
           className="md:my-5 md:w-3/5"
