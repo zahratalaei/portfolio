@@ -41,13 +41,18 @@ const images = [jumbo,Rtmdb,yhl,FS,Shopping]
         <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
           <ul className="w-[2800px] whitespace-nowrap">
             {projects.map((project)=>(
-              <li className="relative mx-5 inline-block h-[380px] w-[450px]">
+              <li className="relative mx-5 inline-block h-[380px] w-[450px] overflow-auto">
                 <div className={overlayStyles}>
                   <h3 className="text-2xl font-semibold">{project.title}</h3>
-                  <p className="mt-5">{project.description}</p>
-                  <p><span className='text-teal-600 py-4 font-bold'>Used Technologies: </span>{project.technology}</p>
-                  {project.url && <a href={project.url} target="_blank" className='bg-teal-400 text-white mt-[10px] p-1 rounded-md'>website
-                  </a>}
+                  <div className='overflow-auto h-[70%]'>
+                    <p className="mt-5">{project.description}</p>
+                    <p><span className='text-teal-600 py-4 font-bold my-[10px]'>Used Technologies: </span>{project.technology}</p>
+                    {project.url && 
+                    <div className='mt-[10px]'>
+                    <a href={project.url} target="_blank" className='bg-teal-400 text-white p-1 rounded-md'>website
+                    </a>
+                    </div>}
+                  </div>
                 </div>
                 <Image src={`${images[project.id].src}`} layout="fill" alt={images[project.id].alt}/>
               </li>

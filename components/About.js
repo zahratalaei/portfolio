@@ -26,7 +26,7 @@ const {setSelectedPage} = useContext(PageContext)
                     >
                          <h2 className='text-4xl py-2 text-teal-600 font-medium md:text-4xl dark:text-teal-400'>Zahra Talaei</h2>
                          <h3 className='text-2xl py-2 md:text-2xl dark:text-white'>Web Developer</h3>
-                         <p className='text-md py-5 text-gray-800 leading-8 md:text-xl md:px-2 max-w-3xl  dark:text-gray-200 tracking-wide '>A self-taught and efficient web developer with three years relevant local experience, strong collaboration skills, a keen eye for 
+                         <p className='text-md py-5 text-gray-800 leading-8 md:text-xl md:px-2 max-w-3xl  dark:text-gray-200 tracking-wide '>An efficient web developer with four years relevant local experience, strong collaboration skills, a keen eye for 
                          detail and a quick learner. With a background in theoretical physics (mostly computational Physics) which has made her enjoy 
                          solving problems and handling challenging tasks. Skilled in both individual and team projects. Having worked in multiple 
                          environments has benefited her with Strong communication and soft skills and experience. Australian Citizen residing in 

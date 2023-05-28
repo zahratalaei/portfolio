@@ -10,7 +10,7 @@
      {
      "id":1,
      "title": "Search Movies App",
-     "description": "Through this application you can find the latest popular movies in home page and search the movie by its name among all the movies in TMDB API. By click on each movie you have access to the details of it. You also be able to paginate through the different pages. All the data comes from TMDB API.",
+     "description": "The Search Movies App is a dynamic and user-friendly application designed to offer users the latest and most popular movies at their fingertips. It is designed with ReactJS and ExpressJS, and all movie data is fetched dynamically from the TMDB API. This application's functionality allows users to search for movies by their names, providing a comprehensive list of results drawn from the TMDB API's extensive database. The search feature is designed for optimal user experience, providing quick and accurate results.  Upon selecting a movie, users are taken to a detailed page showcasing all relevant information about the movie. This feature ensures users have access to comprehensive data about each film, enhancing their browsing and selection process.The app also includes a pagination feature, enabling users to navigate easily through different pages of movie selections. The home page showcases the latest popular movies, ensuring users are always updated on trending films. The Search Movies App is a testament to my ability to leverage APIs for dynamic data retrieval and my commitment to creating engaging, intuitive, and functional applications.",
      "technology": "React, JavaScript, React router dom,Rest API, react-paginate, Styled components",
      "url":"https://tmdbmovieapplication.netlify.app/"
      },
@@ -24,14 +24,14 @@
      {
      "id":3,
      "title": "CircleUp!",
-     "description": "It is a Full Stack Blog App. Being able to see, add comments and likes the posts you need to have an account and sing in to the app. Only author of the post can edit/delete it. This app is in progressing to add more functionalities such as search bar, filters and also improve the UI ",
+     "description": "CircleUp is a robust, full-stack social media application that I am presently developing using ReactJS, ExpressJS, and MYSQL. The application is designed to foster a vibrant online community, with features that allow users to register and create personalized profiles, share thoughts, ideas, or updates in the form of posts, and interact with other posts by liking them. The application also includes a robust search function, enabling users to find specific content or other users swiftly and efficiently.The development of CircleUp is ongoing, with new features and enhancements continually being added to improve user experience and functionality. This project serves as a testament to my full-stack development abilities and my commitment to creating intuitive, user-centric applications.",
      "technology": "React, JavaScript, React router dom, react-bootstrap, yup, bootstrap, axios, Mui, ExpressJs, bcrypt, JWT, mysql, sequelize, ...",
      "url":"https://github.com/zahratalaei/FullStackReactExpress"
      },
      {
      "id":4,
-     "title": "Shopping cart app!",
-     "description": "It is a shopping cart App which is created by react-typescript. Home page displays different categories. Each category is linked to its products page. This app includes a cart displaying all the selected products with the single price, total price of each item and the total price of cart. This app is in progressing to add more functionalities such as search bar, filters and also improve the UI ",
+     "title": "ShopEase, a Shopping cart app!",
+     "description": "ShopEase is an in-progress shopping application that I am developing using React and TypeScript. This application provides a streamlined and user-friendly online shopping experience. The home page of ShopEase showcases various product categories, each of which links to a dedicated page with corresponding products. This intuitive design allows users to easily navigate through the app and find items they are interested in. One of the key features of this application is its interactive shopping cart. The cart dynamically displays all the selected products along with individual prices, quantity-based total prices, and the overall cart total. This detailed breakdown provides users with a clear view of their prospective purchases. As I continue to work on this project, I plan to incorporate more functionalities to enhance the shopping experience. Upcoming features include a search bar for quick product lookup, filters to refine product display based on specific criteria, and UI improvements for a more aesthetic and smooth user experience. The ongoing development of ShopEase demonstrates my adeptness in creating functional, user-centric applications with React and TypeScript, with a focus on e-commerce solutions.",
      "technology": "React, typescript, React router dom, react-bootstrap, bootstrap5, axios ",
      "url":"https://main--shappingcart-ts-app.netlify.app/"
      }
