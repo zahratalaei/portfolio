@@ -38,7 +38,7 @@ const images = [jumbo,Rtmdb,yhl,FS,Shopping]
             <p className="py-5">Take a look at some of my recent projects! Scroll left to view the full list.</p>
           </div> 
         </motion.div>
-        <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
+        <div className="mt-10 h-[353px] mx-auto w-5/6 overflow-x-auto overflow-y-hidden">
           <ul className="w-[2800px] whitespace-nowrap">
             {projects.map((project)=>(
               <li className="relative mx-5 inline-block h-[380px] w-[450px] overflow-auto">
