@@ -43,9 +43,12 @@ const Skills = () => {
             
          </motion.div> */}
             <motion.div 
-            variants={childVariant} className='bg-teal-400 m-1 rounded p-1 text-lg dark:text-white'>React Router Dom</motion.div>
-            <motion.div 
             variants={childVariant} className='bg-teal-400 m-1 rounded p-1 text-lg dark:text-white'>ReactJs</motion.div>
+            <motion.div 
+            variants={childVariant} className='bg-teal-400 m-1 rounded p-1 text-lg dark:text-white'>NextJs</motion.div>
+            <motion.div 
+            variants={childVariant} className='bg-teal-400 m-1 rounded p-1 text-lg dark:text-white'>React Router Dom</motion.div>
+            
             <motion.div 
             variants={childVariant} className='bg-teal-400 m-1 rounded p-1 text-lg dark:text-white'>Rest API</motion.div>
             <motion.div 
@@ -58,12 +61,13 @@ const Skills = () => {
             variants={childVariant} className='bg-teal-400 m-1 rounded p-1 text-lg dark:text-white'>Tailwind</motion.div>
             <motion.div 
             variants={childVariant} className='bg-teal-400 m-1 rounded p-1 text-lg dark:text-white'>Typescript</motion.div>
-            <motion.div 
-            variants={childVariant} className='bg-teal-400 m-1 rounded p-1 text-lg dark:text-white'>NextJs</motion.div>
+          
             <motion.div 
             variants={childVariant} className='bg-teal-400 m-1 rounded p-1 text-lg dark:text-white'>NodeJs</motion.div>
             <motion.div 
             variants={childVariant} className='bg-teal-400 m-1 rounded p-1 text-lg dark:text-white'>ExpressJs</motion.div>
+            <motion.div 
+            variants={childVariant} className='bg-teal-400 m-1 rounded p-1 text-lg dark:text-white'>CesiumJs</motion.div>
             <motion.div 
             variants={childVariant} className='bg-teal-400 m-1 rounded p-1 text-lg dark:text-white'>Styled Components</motion.div>
             <motion.div 
