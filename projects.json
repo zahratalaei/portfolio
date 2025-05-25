@@ -12,7 +12,7 @@
      "title": "CircleUp!",
      "description": "CircleUp is a robust, full-stack social media application that I am presently developing using ReactJS, ExpressJS, and MYSQL. The application is designed to foster a vibrant online community, with features that allow users to register and create personalized profiles, share thoughts, ideas, or updates in the form of posts, and interact with other posts by liking them. The application also includes a robust search function, enabling users to find specific content or other users swiftly and efficiently.The development of CircleUp is ongoing, with new features and enhancements continually being added to improve user experience and functionality. This project serves as a testament to my full-stack development abilities and my commitment to creating intuitive, user-centric applications.",
      "technology": "React, JavaScript, React router dom, react-bootstrap, yup, bootstrap, axios, Mui, ExpressJs, bcrypt, JWT, mysql, sequelize, ...",
-     "url": "https://github.com/zahratalaei/FullStackReactExpress"
+     "url": "https://circleupapp.netlify.app/"
    },
     {
       "id": 0,

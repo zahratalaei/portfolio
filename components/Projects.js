@@ -54,7 +54,7 @@ const images = [jumbo,Rtmdb,yhl,FS,Shopping]
                     </div>}
                   </div>
                 </div>
-                <Image src={`${images[project.id].src}`} layout="fill" alt={images[project.id].alt}/>
+                <Image src={`${images[project.id].src}`} layout="fill" alt={images[project.id].alt} className="object-cover"/>
               </li>
             ))}
           </ul>
